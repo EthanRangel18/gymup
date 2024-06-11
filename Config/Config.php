@@ -1,5 +1,5 @@
 <?php
-const base_url = "https://gymup-web-azure.azurewebsites.net";
+const base_url = "https://gymup-web-azure.azurewebsites.net/";
 const host = "localhost";
 const user = "root";
 const pass = "";
