@@ -1,8 +1,14 @@
+# Habilitar el motor de reescritura
 RewriteEngine on
+
+# Redirigir HTTP a HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Excepción para login.php
 RewriteRule ^Views/login.php$ - [L]
 
+# Si el archivo o directorio solicitado no existe, reescribir la URL para que la maneje index.php
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
