@@ -18,7 +18,7 @@
   <!-- Mobile Specific Metas
   ================================================== -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Health Care Medical Html5 Template">
+  <meta name="description" content="Health Care Medical 5 Template">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <meta name="author" content="Themefisher">
   <meta name="generator" content="Themefisher Novena HTML Template v1.0">
@@ -66,7 +66,7 @@
 	</div>
 	<nav class="navbar navbar-expand-lg navigation" id="navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">
+			<a class="navbar-brand" href="index.php">
 				<img src="Assets/images/other.png" alt="" width="100">
 			</a>
 
@@ -78,7 +78,7 @@
 			<div class="collapse navbar-collapse" id="navbarmain">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
-					<li class="nav-item"><a class="nav-link" href="Views\login.php">Iniciar sesión</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?php echo base_url . 'Views/login.php'; ?>">Iniciar sesión</a></li>
 				</ul>
 			</div>
 		</div>
