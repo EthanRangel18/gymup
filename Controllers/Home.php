@@ -8,7 +8,7 @@ class Home extends Controller
     public function __construct() {
         session_start();
         if (!empty($_SESSION['activo'])) {
-            header("location: ".base_url. "administracion/home");
+            header("location: ".base_url. "Views/administracion/home");
         }
         parent::__construct();
     }
