@@ -78,7 +78,8 @@
 			<div class="collapse navbar-collapse" id="navbarmain">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
-					<li class="nav-item"><a class="nav-link" href="<?php echo base_url . 'Views/login.php'; ?>">Iniciar sesión</a></li>
+				<li class="nav-item"><a class="nav-link" href="<?php echo base_url()1; ?>/views/login.php">Iniciar sesión</a></li>
+
 				</ul>
 			</div>
 		</div>
